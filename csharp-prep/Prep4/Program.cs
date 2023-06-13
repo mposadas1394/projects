@@ -8,7 +8,7 @@ class Program
         numbers=new List<int>();
         int answer=-1;
         while(answer!=0){
-            Console.WriteLine("Enter a number: ");
+            Console.WriteLine("Enter a number(0 to quit):  ");
             string userInput=Console.ReadLine();
             answer=int.Parse(userInput);
             if(answer!=0){
